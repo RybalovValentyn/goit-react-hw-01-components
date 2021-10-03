@@ -1,11 +1,15 @@
+import ProfileList from './components/Profile/profileList';
+import Section from './components/Profile/section'
+import users from './components/Profile/user.json'
 
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-<span>hi</span>
-    </div>
+   
+        <Section title ='My Profile' className="App">
+           <ProfileList items= {users}/>
+        </Section>
+    
   );
 }
 
