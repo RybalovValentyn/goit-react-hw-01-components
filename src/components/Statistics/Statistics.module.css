@@ -1,0 +1,56 @@
+.section {
+  margin: 0;
+  padding: 20px;
+  max-width: 800px;
+  height: 300px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+.section > h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+li {
+  list-style: none;
+}
+.statisticList {
+  display: flex;
+}
+.statisticItem {
+  display: block;
+  width: 80px;
+  height: 70px;
+  padding: 30px;
+  /* background-color: blue; */
+}
+
+.label {
+  font-size: 25px;
+  font-weight: 300;
+  display: block;
+  background: inherit;
+}
+.percentage {
+  font-size: 35px;
+  font-weight: 400;
+  display: block;
+  background: inherit;
+}
+
+.statisticList :nth-child(1) {
+  background-color: red;
+}
+.statisticList :nth-child(2) {
+  background-color: green;
+}
+.statisticList :nth-child(3) {
+  background-color: blue;
+}
+.statisticList :nth-child(4) {
+  background-color: yellow;
+}
+.statisticList :nth-child(5) {
+  background-color: brown;
+}

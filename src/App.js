@@ -11,7 +11,7 @@ function App() {
            <ProfileList items= {users}/>
         </Section>  
 
-        <StatisticList  title ='SectionName' stats = {statisticalData} />
+        <StatisticList  title ='Upload stats' stats = {statisticalData} />
 
         <StatisticList stats = {statisticalData} />
         
