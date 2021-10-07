@@ -9,7 +9,7 @@
 .section > h2 {
   font-size: 30px;
   font-weight: 600;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 li {
@@ -23,34 +23,33 @@ li {
   width: 80px;
   height: 70px;
   padding: 30px;
-  /* background-color: blue; */
+  background-color: red;
 }
 
 .label {
   font-size: 25px;
   font-weight: 300;
   display: block;
-  background: inherit;
+  margin-bottom: 10px;
 }
 .percentage {
   font-size: 35px;
   font-weight: 400;
   display: block;
-  background: inherit;
 }
 
-.statisticList :nth-child(1) {
+.statisticlist > :first-child {
   background-color: red;
 }
-.statisticList :nth-child(2) {
+.statisticList > :nth-child(2) {
   background-color: green;
 }
-.statisticList :nth-child(3) {
+.statisticList > :nth-child(3) {
   background-color: blue;
 }
-.statisticList :nth-child(4) {
+.statisticList > :nth-child(4) {
   background-color: yellow;
 }
-.statisticList :nth-child(5) {
+.statisticList > :nth-child(5) {
   background-color: brown;
 }

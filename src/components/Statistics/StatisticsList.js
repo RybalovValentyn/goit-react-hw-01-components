@@ -2,7 +2,7 @@ import Statistics from './Statistics';
 import s from './Statistics.module.css';
 
 
-function StatisticList( {title = '', stats, colors } ) {
+function StatisticList( {title = '', stats} ) {
     
     return ( 
        <section className={s.section}>
